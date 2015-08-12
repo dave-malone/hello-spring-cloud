@@ -13,5 +13,5 @@ To build this app, you will need Maven installed.
 `mvn clean package`
 
 The /shutdown endpoint is an HTTP POST request:
-`curl -X POST https://spring-boot-hello-world-demersal-capping.cfapps.pez.pivotal.io`  
+`curl -X POST https://spring-boot-hello-world-demersal-capping.cfapps.pez.pivotal.io/shutdown`  
 
